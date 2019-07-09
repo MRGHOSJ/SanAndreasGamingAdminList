@@ -1,33 +1,166 @@
-.App {
-  text-align: center;
+.accoutmenuDi{
+  width: 100%;
+  background-color: #272727;
+}
+.reactMdInput{
+  width: 55%;
+  margin: 5%;
+}
+.LoginButton{
+  width: 10%;
+  margin: 5%;
+}
+.loginDiv{
+  -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+  width: 36%;
+  padding: 2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.logoffCss:hover{
+  background-color: #E0E0E0;
+}
+.addAdminHome{
+  background-color: #272727;
+  color: white;
+  margin: 1%;
+}
+.addAdminHome:hover{
+  background-color: white;
+  color: #272727;
+  -webkit-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+}
+.AccountMenu{
+  position: absolute;
+  right: 2%;
+}
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid black;
+  width: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #272727;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-body {
+  padding: 2px 16px;
+  background-color: white;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #272727;
+  color: white;
+}
+.modalTittle{
+  color:white;
+  margin-top: 1%;
+}
+.AddAdminBtn{
+  background-color: black;
+  color: white;
+  margin: 2%;
+}
+.AddAdminBtn:hover{
+  background-color: white;
+  color: black;
+  margin: 2%;
+}
+.sectionTittle{
+  color: white;
+}
+.emialicon .md-icon-text{
+  color: white;
+}
+.emailArrowdown{
+color: white !important;
+}
+.EmailIcon{
+  background-color: black;
+}
+.homeAdminlistTittle{
+  background-color: #272727;
+  padding: 1%;
+}
+.homeAdminlistTittle h1{
+  color: white;
+}
+.insideHomeAndloginCss{
+  background-color: #272727;
+  color: white;
+  padding: 5%;
+  width: 85%;
+  height: 200px;
+  overflow:auto;
+  -webkit-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.75);
+}
+.editFontICon{
+  cursor: pointer;
+  color: white;
+}
+.deleteButton{
+  color:white;
+  cursor: pointer;
 }
